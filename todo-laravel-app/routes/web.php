@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource('todos', 'TodosController');
+
 Route::get('/', function () {
     return view('welcome');
 });
